@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+/* header */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 43px;      
+  background: #fff;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 600;
+  color: #25A4AD;
+  margin-right: 70px;     
+}
+
+.nav-elements {
+  display: flex;
+  gap: 35px;              
+  flex: 1;               
+}
+
+.nav-elements a {
+  text-decoration: none;
+  color: #313131;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.nav-elements a:hover {
+  color: #25A4AD;
+}
+
+.signIn-signUp {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#signIn {
+  text-decoration: none;
+  font-size: 18px;
+  color: #313131;
+}
+
+#signUp {
+  text-decoration: none;
+  border: 1px solid #25A4AD;
+  padding: 8px 16px;
+  color: #25A4AD;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+#signUp:hover {
+  background-color: #25A4AD;
+  color: #fff;
+}
+
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.p1 .hero-section-heading{
+    width: 400px;
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.p1 .hero-section-heading p{
+    color: #25A4AD;
+}
+
+.p1 .hero-section-para{
+    color: #313131;
+    font-size: 16px;
+    font-weight: 400;
+    width: 426px;
+    margin-top: 20px;
+}
+
+.p1 .hero-section-b1{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 8px 25px;
+    margin-top: 30px;
+    background-color: #25A4AD;
+    border: none;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.p1 .hero-section-b1:hover{
+    background-color: #fff;
+    color: #25A4AD;
+    border: 1px solid #25A4AD;
+}
+
+.p1 .hero-section-b2{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 8px 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 1px solid #25A4AD;
+    background-color: #fff;
+    color: #25A4AD;
+    transition: all 0.5s;
+}
+
+.p1 .hero-section-b2:hover{
+    background-color: #25A4AD;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.p2 img{
+    width: 400px;
+    height: 650px;
+}
+
+/* Scroll bar */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--supporting-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #25A4AD;
+  border-radius: 50px;
+}
+
+
+
+
+
+
