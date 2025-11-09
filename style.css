@@ -2,12 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-html,body{
-    width: 100%;
-    height: 100%;
+html,
+body {
+  width: 100%;
+  height: 100%;
 }
 
 /* header */
@@ -16,21 +17,21 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 43px;      
+  padding: 10px 43px;
   background: #fff;
 }
 
 .logo {
   font-size: 22px;
   font-weight: 600;
-  color: #25A4AD;
-  margin-right: 70px;     
+  color: #25a4ad;
+  margin-right: 70px;
 }
 
 .nav-elements {
   display: flex;
-  gap: 35px;              
-  flex: 1;               
+  gap: 35px;
+  flex: 1;
 }
 
 .nav-elements a {
@@ -41,7 +42,7 @@ nav {
 }
 
 .nav-elements a:hover {
-  color: #25A4AD;
+  color: #25a4ad;
 }
 
 .signIn-signUp {
@@ -58,86 +59,243 @@ nav {
 
 #signUp {
   text-decoration: none;
-  border: 1px solid #25A4AD;
+  border: 1px solid #25a4ad;
   padding: 8px 16px;
-  color: #25A4AD;
+  color: #25a4ad;
   font-size: 18px;
   border-radius: 4px;
   transition: all 0.3s;
 }
 
 #signUp:hover {
-  background-color: #25A4AD;
+  background-color: #25a4ad;
   color: #fff;
 }
 
-.hero-section{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    margin-top: 30px;
-    padding-right: 10%;
-    padding-left: 10%;
+.hero-section {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+  padding-right: 15%;
+  padding-left: 15%;
+  position: relative;
 }
 
-.p1 .hero-section-heading{
-    width: 400px;
-    font-size: 70px;
-    font-weight: 400;
+.p1 .hero-section-heading {
+  width: 400px;
+  font-size: 70px;
+  font-weight: 400;
 }
 
-.p1 .hero-section-heading p{
-    color: #25A4AD;
+.special {
+  color: #25a4ad;
 }
 
-.p1 .hero-section-para{
-    color: #313131;
-    font-size: 16px;
-    font-weight: 400;
-    width: 426px;
-    margin-top: 20px;
+.p1 .hero-section-para {
+  color: #313131;
+  font-size: 16px;
+  font-weight: 400;
+  width: 426px;
+  margin-top: 20px;
 }
 
-.p1 .hero-section-b1{
-    font-size: 18px;
-    font-weight: 400;
-    padding: 8px 25px;
-    margin-top: 30px;
-    background-color: #25A4AD;
-    border: none;
-    color: #fff;
-    transition: all 0.5s;
+.p1 .hero-section-b1 {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 8px 25px;
+  margin-top: 30px;
+  background-color: #25a4ad;
+  border: none;
+  color: #fff;
+  transition: all 0.5s;
 }
 
-.p1 .hero-section-b1:hover{
-    background-color: #fff;
-    color: #25A4AD;
-    border: 1px solid #25A4AD;
+.p1 .hero-section-b1:hover {
+  background-color: #fff;
+  color: #25a4ad;
+  border: 1px solid #25a4ad;
 }
 
-.p1 .hero-section-b2{
-    font-size: 18px;
-    font-weight: 400;
-    padding: 8px 25px;
-    margin-top: 20px;
-    margin-left: 10px;
-    border: 1px solid #25A4AD;
-    background-color: #fff;
-    color: #25A4AD;
-    transition: all 0.5s;
+.p1 .hero-section-b2 {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 8px 25px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border: 1px solid #25a4ad;
+  background-color: #fff;
+  color: #25a4ad;
+  transition: all 0.5s;
 }
 
-.p1 .hero-section-b2:hover{
-    background-color: #25A4AD;
-    color: #fff;
-    border: 1px solid #fff;
+.p1 .hero-section-b2:hover {
+  background-color: #25a4ad;
+  color: #fff;
+  border: 1px solid #fff;
 }
 
-.p2 img{
-    width: 400px;
-    height: 650px;
+.hero-section .p2 {
+  margin-left: 100px;
 }
+
+.p2 .img1 {
+  width: 400px;
+  height: 650px;
+}
+
+.p2 .img2 {
+  position: absolute;
+  top: 9%;
+  left: 40%;
+}
+
+.logos-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logos-div {
+  width: 100%;
+  background-color: #f8f8f8;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+}
+
+.logos-div img {
+  width: 100px;
+  margin-left: 150px;
+}
+
+/* best services */
+
+.best-services {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.best-services-heading {
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.best-services-para {
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #313131;
+}
+
+.some-services {
+  margin-top: 60px;
+}
+
+.some-services .p1 {
+  display: flex;
+  justify-content: center;
+}
+
+.p1 .box1 {
+  border: 1px solid black;
+  width: 30%;
+  height: 472px;
+  border-top-left-radius: 300px;
+  padding: 120px;
+  margin-right: 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/Rectangle\ 32.png);
+}
+
+.p1 .box1,
+.box2,
+.box3,
+.box4 h1 {
+  color: #fff;
+  font-weight: 400;
+}
+
+.p1 .box2 {
+  border: 1px solid black;
+  width: 30%;
+  height: 472px;
+  border-top-right-radius: 300px;
+  padding: 120px;
+  margin-top: 40px;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url(./images/Rectangle\ 33.png);
+}
+
+.p2 {
+  display: flex;
+  justify-content: center;
+}
+
+.p2 .box3 {
+  border: 1px solid black;
+  width: 30%;
+  height: 472px;
+  border-bottom-left-radius: 300px;
+  padding: 120px;
+  margin-right: 20px;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url(./images/Rectangle\ 34.png);
+}
+
+.p2 .box4 {
+  border: 1px solid black;
+  width: 30%;
+  height: 472px;
+  border-bottom-right-radius: 300px;
+  padding: 120px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url(./images/Rectangle\ 35.png);
+}
+
+.fa{
+  color: #f5b91e;
+  margin-top: 5px;
+}
+
+.some-services .best-services-button{
+  text-decoration: none;
+  border: 1px solid #25a4ad;
+  padding: 8px 25px;
+  color: #25a4ad;
+  margin-bottom: 40px;
+  transition: all 0.5s;
+}
+
+.some-services .best-services-button:hover{
+  background-color: #25a4ad;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Scroll bar */
 
@@ -150,12 +308,6 @@ nav {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #25A4AD;
+  background-color: #25a4ad;
   border-radius: 50px;
 }
-
-
-
-
-
-
