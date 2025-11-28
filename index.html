@@ -15,210 +15,190 @@
     <title>Document</title>
   </head>
   <body class="font-sans bg-white text-[#313131]">
+
     <!-- Header -->
-    <header>
-      <nav
-        class="flex items-center justify-between px-10 py-3 bg-white shadow-sm"
-      >
-        <!-- Nav Links -->
+    <header class="w-full">
 
-        <div class="flex gap-9">
-          <!-- Logo -->
+  <nav class="flex items-center justify-between px-6 md:px-10 py-4 bg-white shadow-sm relative">
+    <p class="text-2xl font-semibold text-[#25a4ad]">Payme</p>
 
-          <p class="text-2xl font-semibold text-[#25a4ad]">Payme</p>
+    <button id="menu-btn" class="md:hidden text-3xl focus:outline-none">
+      ☰
+    </button>
 
-          <a href="#" class="text-lg hover:text-[#25a4ad] transition">Home</a>
-          <a href="#" class="text-lg hover:text-[#25a4ad] transition">About</a>
-          <a href="#" class="text-lg hover:text-[#25a4ad] transition"
-            >Testimonial</a
-          >
-          <a href="#" class="text-lg hover:text-[#25a4ad] transition"
-            >Contact</a
-          >
-        </div>
+    <div
+      id="menu"
+      class="hidden md:flex flex-col md:flex-row gap-6 absolute md:static top-full left-0 w-full md:w-auto bg-white md:bg-transparent p-6 md:p-0 shadow-md md:shadow-none"
+    >
+      <a href="#" class="text-lg hover:text-[#25a4ad]">Home</a>
+      <a href="#" class="text-lg hover:text-[#25a4ad]">About</a>
+      <a href="#" class="text-lg hover:text-[#25a4ad]">Testimonial</a>
+      <a href="#" class="text-lg hover:text-[#25a4ad]">Contact</a>
 
-        <!-- SignIn / SignUp -->
-
-        <div class="flex items-center gap-5">
-          <a href="#" class="text-lg text-[#313131]">Sign in</a>
-          <a
-            href="#"
-            class="text-lg border border-[#25a4ad] text-[#25a4ad] px-4 py-2 rounded transition hover:bg-[#25a4ad] hover:text-white"
-            >Sign up</a
-          >
-        </div>
-      </nav>
-
-      <!-- Hero Section -->
-
-      <section
-        class="flex items-center justify-between w-full mt-8 px-[15%] relative flex-wrap"
-      >
-        <div>
-          <h1 class="text-[70px] font-normal leading-tight w-[400px]">
-            Providing Best
-            <span class="block text-[#25a4ad]">WEB Services</span>
-          </h1>
-
-          <p class="text-base text-[#313131] w-[426px] mt-5">
-            Letter of on become he tended active enable to. Vicinity relation
-            sensible sociable surprise screened no up as.
-          </p>
-
-          <div class="mt-7">
-            <button
-              class="bg-[#25a4ad] text-white text-lg px-6 py-2 mr-3 border border-transparent rounded transition hover:bg-white hover:text-[#25a4ad] hover:border-[#25a4ad]"
-            >
-              Get started
-            </button>
-
-            <button
-              class="border border-[#25a4ad] text-[#25a4ad] text-lg px-6 py-2 rounded transition hover:bg-[#25a4ad] hover:text-white"
-            >
-              Explore
-            </button>
-          </div>
-        </div>
-
-        <div class="relative mt-10 md:mt-0">
-          <img
-            src="./images/hero-section-img.png"
-            alt="Hero"
-            class="w-[400px] h-[650px]"
-          />
-          <img
-            src="./images/Vector 2.png"
-            alt="Vector"
-            class="absolute top-[0%] left-[-40%]"
-          />
-        </div>
-      </section>
-
-      <!-- Logos Section -->
-      <section class="flex items-center justify-center mt-10">
-        <div
-          class="w-full bg-[#f8f8f8] py-10 mb-5 flex justify-center gap-36 flex-wrap"
-        >
-          <img src="./images/Group.png" alt="" class="w-[100px]" />
-          <img src="./images/Group 543.png" alt="" class="w-[100px]" />
-          <img src="./images/Group 544.png" alt="" class="w-[100px]" />
-          <img src="./images/Group 545.png" alt="" class="w-[100px]" />
-          <img src="./images/Group 546.png" alt="" class="w-[100px]" />
-        </div>
-      </section>
-    </header>
-
-    <!-- best services -->
-
-    <section class="mt-20 text-center">
-      <h1 class="text-4xl font-normal mb-2">
-        Best <span class="text-[#25a4ad]">Services</span>
-      </h1>
-
-      <p class="text-base text-[#313131] font-normal mb-2">
-        Our trusted team brings you quality, comfort, and innovation—crafted
-        perfectly to meet your every need.
-      </p>
-
-      <div class="mt-16">
-        <!-- first row -->
-        <div class="flex justify-center">
-          <div
-            class="w-[30%] h-[472px] rounded-tl-[300px] bg-cover bg-center border border-black mr-5 flex flex-col items-center justify-center text-white"
-            style="
-              background-image: linear-gradient(
-                  rgba(0, 0, 0, 0.5),
-                  rgba(0, 0, 0, 0.5)
-                ),
-                url('./images/Rectangle 32.png');
-            "
-          >
-            <h1 class="text-white font-normal text-2xl mb-2">
-              Web Development
-            </h1>
-            <div class="text-[#f5b91e] space-x-1">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
-          </div>
-
-          <div
-            class="w-[30%] h-[472px] rounded-tr-[300px] bg-cover bg-center border border-black mt-10 flex flex-col items-center justify-center text-white"
-            style="
-              background-image: linear-gradient(
-                  rgba(0, 0, 0, 0.5),
-                  rgba(0, 0, 0, 0.5)
-                ),
-                url('./images/Rectangle 33.png');
-            "
-          >
-            <h1 class="text-white font-normal text-2xl mb-2">Web Designing</h1>
-            <div class="text-[#f5b91e] space-x-1">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
-          </div>
-        </div>
-
-        <!-- second row -->
-        <div class="flex justify-center">
-          <div
-            class="w-[30%] h-[472px] rounded-bl-[300px] bg-cover bg-center border border-black mr-5 flex flex-col items-center justify-center text-white"
-            style="
-              background-image: linear-gradient(
-                  rgba(0, 0, 0, 0.5),
-                  rgba(0, 0, 0, 0.5)
-                ),
-                url('./images/Rectangle 34.png');
-            "
-          >
-            <h1 class="text-white font-normal text-2xl mb-2">
-              Data Management
-            </h1>
-            <div class="text-[#f5b91e] space-x-1">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
-          </div>
-
-          <div
-            class="w-[30%] h-[472px] rounded-br-[300px] bg-cover bg-center border border-black mt-10 mb-20 flex flex-col items-center justify-center text-white"
-            style="
-              background-image: linear-gradient(
-                  rgba(0, 0, 0, 0.5),
-                  rgba(0, 0, 0, 0.5)
-                ),
-                url('./images/Rectangle 35.png');
-            "
-          >
-            <h1 class="text-white font-normal text-2xl mb-2">SEO</h1>
-            <div class="text-[#f5b91e] space-x-1">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
-          </div>
-        </div>
-
-        <!-- button -->
+      <div class="flex md:hidden flex-col gap-4 mt-4">
+        <a href="#" class="text-lg text-[#313131]">Sign in</a>
         <a
           href="#"
-          class="inline-block border border-[#25a4ad] text-[#25a4ad] px-6 py-2 transition duration-500 hover:bg-[#25a4ad] hover:text-white hover:border-white"
-          >Explore All</a
+          class="text-lg border border-[#25a4ad] text-[#25a4ad] px-4 py-2 rounded text-center"
+          >Sign up</a
         >
       </div>
-    </section>
+    </div>
+
+    <div class="hidden md:flex items-center gap-5">
+      <a href="#" class="text-lg text-[#313131]">Sign in</a>
+      <a
+        href="#"
+        class="text-lg border border-[#25a4ad] text-[#25a4ad] px-4 py-2 rounded hover:bg-[#25a4ad] hover:text-white"
+        >Sign up</a
+      >
+    </div>
+  </nav>
+
+  <section
+    class="flex flex-wrap items-center justify-center md:justify-between w-full mt-10 px-6 md:px-[10%] lg:px-[15%]"
+  >
+    <div class="text-center md:text-left">
+      <h1
+        class="text-4xl sm:text-5xl lg:text-[70px] font-normal leading-tight max-w-[400px] mx-auto md:mx-0"
+      >
+        Providing Best
+        <span class="block text-[#25a4ad]">WEB Services</span>
+      </h1>
+
+      <p class="text-base text-[#313131] max-w-[426px] mt-5 mx-auto md:mx-0">
+        Letter of on become he tended active enable to. Vicinity relation
+        sensible sociable surprise screened no up as.
+      </p>
+
+      <div class="mt-7 flex justify-center md:justify-start gap-3">
+        <button
+          class="bg-[#25a4ad] text-white text-lg px-6 py-2 rounded hover:bg-white hover:text-[#25a4ad] border border-[#25a4ad]"
+        >
+          Get started
+        </button>
+
+        <button
+          class="border border-[#25a4ad] text-[#25a4ad] text-lg px-6 py-2 rounded hover:bg-[#25a4ad] hover:text-white"
+        >
+          Explore
+        </button>
+      </div>
+    </div>
+
+    <div class="relative mt-10 md:mt-0">
+      <img
+        src="./images/hero-section-img.png"
+        alt=""
+        class="w-[250px] sm:w-[330px] md:w-[380px] lg:w-[420px]"
+      />
+      <img
+        src="./images/Vector 2.png"
+        alt=""
+        class="absolute top-0 left-[-20%] w-[150px] sm:w-[180px]"
+      />
+    </div>
+  </section>
+
+  <section class="flex items-center justify-center mt-14">
+    <div
+      class="w-full bg-[#f8f8f8] py-10 flex justify-center gap-10 sm:gap-20 md:gap-28 lg:gap-36 flex-wrap px-6"
+    >
+      <img src="./images/Group.png" class="w-[80px] sm:w-[100px]" />
+      <img src="./images/Group 543.png" class="w-[80px] sm:w-[100px]" />
+      <img src="./images/Group 544.png" class="w-[80px] sm:w-[100px]" />
+      <img src="./images/Group 545.png" class="w-[80px] sm:w-[100px]" />
+      <img src="./images/Group 546.png" class="w-[80px] sm:w-[100px]" />
+    </div>
+  </section>
+</header>
+
+
+    <!-- best services -->
+<section class="mt-20 text-center px-4">
+  <h1 class="text-3xl md:text-4xl font-normal mb-2">
+    Best <span class="text-[#25a4ad]">Services</span>
+  </h1>
+
+  <p class="text-base text-[#313131] max-w-[600px] mx-auto">
+    Our trusted team brings you quality, comfort, and innovation—crafted
+    perfectly to meet your every need.
+  </p>
+
+  <div class="mt-16 space-y-10">
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center">
+      <div
+        class="w-full md:w-[90%] lg:w-[70%] h-[420px] rounded-tl-[200px] bg-cover bg-center flex flex-col items-center justify-center text-white"
+        style="
+          background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+          url('./images/Rectangle 32.png');
+        "
+      >
+        <h1 class="text-2xl mb-2">Web Development</h1>
+        <div class="text-[#f5b91e] space-x-1 text-xl">
+          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+          ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+          ><i class="fa-solid fa-star"></i>
+        </div>
+      </div>
+
+      <div
+        class="w-full md:w-[90%] lg:w-[70%] h-[420px] rounded-tr-[200px] bg-cover bg-center flex flex-col items-center justify-center text-white"
+        style="
+          background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+          url('./images/Rectangle 33.png');
+        "
+      >
+        <h1 class="text-2xl mb-2">Web Designing</h1>
+        <div class="text-[#f5b91e] space-x-1 text-xl">
+          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+          ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+          ><i class="fa-solid fa-star"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center">
+      <div
+        class="w-full md:w-[90%] lg:w-[70%] h-[420px] rounded-bl-[200px] bg-cover bg-center flex flex-col items-center justify-center text-white"
+        style="
+          background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+          url('./images/Rectangle 34.png');
+        "
+      >
+        <h1 class="text-2xl mb-2">Data Management</h1>
+        <div class="text-[#f5b91e] space-x-1 text-xl">
+          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+          ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+          ><i class="fa-solid fa-star"></i>
+        </div>
+      </div>
+
+      <div
+        class="w-full md:w-[90%] lg:w-[70%] h-[420px] rounded-br-[200px] bg-cover bg-center flex flex-col items-center justify-center text-white"
+        style="
+          background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+          url('./images/Rectangle 35.png');
+        "
+      >
+        <h1 class="text-2xl mb-2">SEO</h1>
+        <div class="text-[#f5b91e] space-x-1 text-xl">
+          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+          ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+          ><i class="fa-solid fa-star"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a
+    href="#"
+    class="inline-block mt-12 border border-[#25a4ad] text-[#25a4ad] px-6 py-2 transition hover:bg-[#25a4ad] hover:text-white"
+    >Explore All</a
+  >
+</section>
+
 
     <!-- Our features -->
 
@@ -449,25 +429,25 @@
 
     <!-- FAQS -->
 
-    <section class="mt-20 mb-12 flex flex-col items-center justify-center text-center">
+    <section class="mt-20 mb-12 flex flex-col items-center justify-center text-center px-4">
   
-  <h1 class="text-[65px] font-normal text-[#25a4ad] mb-5">
+  <h1 class="text-4xl sm:text-5xl md:text-[65px] font-normal text-[#25a4ad] mb-5">
     FAQs
   </h1>
 
-  <div class="flex flex-col items-center justify-center">
+  <div class="flex flex-col items-center justify-center w-full max-w-4xl">
 
     <!-- SPECIAL OPEN CARD -->
-    <div class="w-[700px] h-[230px] flex shadow-[4px_4px_4px_4px_#f1f1f1] mb-5 p-5">
-      <i class="fa-solid fa-minus text-[40px] text-[#25a4ad] ml-6 mr-5 mt-2"></i>
+    <div class="w-full sm:w-[90%] md:w-[700px] flex flex-col sm:flex-row shadow-lg mb-5 p-5">
+      <i class="fa-solid fa-minus text-3xl sm:text-[40px] text-[#25a4ad] mb-3 sm:mb-0 sm:ml-6 sm:mr-5"></i>
 
       <div class="text-left">
-        <h1 class="text-[20px] font-normal text-[#313131] mb-7">
-          she met humoured sir breeding her. Six curiosity day assurance bed
+        <h1 class="text-[16px] sm:text-[18px] md:text-[20px] font-normal text-[#313131] mb-3 sm:mb-7">
+          She met humoured sir breeding her. Six curiosity day assurance bed
           necessary.
         </h1>
 
-        <p class="text-[16px] font-normal text-[#313131]">
+        <p class="text-[14px] sm:text-[16px] text-[#313131]">
           Relation so in confined smallest children unpacked delicate. Why
           sir end believe uncivil respect. Always get adieus nature day
           course for common. My little garret repair to desire he esteem.
@@ -476,30 +456,30 @@
     </div>
 
     <!-- CLOSED CARD 1 -->
-    <div class="w-[600px] h-[70px] flex items-center justify-center shadow-[4px_4px_4px_4px_#f1f1f1] mb-5">
-      <div class="flex items-center justify-evenly w-full px-4">
-        <i class="fa-regular fa-plus text-[40px]"></i>
-        <p class="w-[492px] text-[16px] m-0 text-left">
+    <div class="w-full sm:w-[90%] md:w-[600px] flex items-center justify-center shadow-lg mb-5 p-3">
+      <div class="flex items-center w-full px-4">
+        <i class="fa-regular fa-plus text-3xl sm:text-[40px] mr-4"></i>
+        <p class="text-[14px] sm:text-[16px] text-left">
           And excellence partiality estimating terminated day everything?
         </p>
       </div>
     </div>
 
     <!-- CLOSED CARD 2 -->
-    <div class="w-[600px] h-[70px] flex items-center justify-center shadow-[4px_4px_4px_4px_#f1f1f1] mb-5">
-      <div class="flex items-center justify-evenly w-full px-4">
-        <i class="fa-regular fa-plus text-[40px]"></i>
-        <p class="w-[492px] text-[16px] m-0 text-left">
+    <div class="w-full sm:w-[90%] md:w-[600px] flex items-center justify-center shadow-lg mb-5 p-3">
+      <div class="flex items-center w-full px-4">
+        <i class="fa-regular fa-plus text-3xl sm:text-[40px] mr-4"></i>
+        <p class="text-[14px] sm:text-[16px] text-left">
           Latter person am secure of estate genius at?
         </p>
       </div>
     </div>
 
     <!-- CLOSED CARD 3 -->
-    <div class="w-[600px] h-[70px] flex items-center justify-center shadow-[4px_4px_4px_4px_#f1f1f1] mb-5">
-      <div class="flex items-center justify-evenly w-full px-4">
-        <i class="fa-regular fa-plus text-[40px]"></i>
-        <p class="w-[492px] text-[16px] m-0 text-left">
+    <div class="w-full sm:w-[90%] md:w-[600px] flex items-center justify-center shadow-lg mb-5 p-3">
+      <div class="flex items-center w-full px-4">
+        <i class="fa-regular fa-plus text-3xl sm:text-[40px] mr-4"></i>
+        <p class="text-[14px] sm:text-[16px] text-left">
           Whatever landlord yourself at by pleasure of children be?
         </p>
       </div>
@@ -510,7 +490,77 @@
 </section>
 
 
+
     <!-- footer -->
+<footer class="bg-gray-900 text-gray-300 py-16 px-6 sm:px-8 md:px-12">
+  <div class="max-w-7xl mx-auto flex flex-col items-center">
+
+    <!-- Heading -->
+    <h2 class="text-2xl sm:text-3xl font-semibold text-center mb-6">
+      People who are ready took these courses!
+    </h2>
+
+    <!-- Button -->
+    <div class="flex justify-center mb-12">
+      <button class="border border-gray-400 px-6 py-2 rounded hover:bg-white hover:text-black transition">
+        Schedule demo
+      </button>
+    </div>
+
+    <!-- Footer Links -->
+    <div class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 text-center sm:text-left">
+      
+      <!-- Column 1 -->
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Payme</h3>
+        <p class="text-sm">
+          Crackerwood KR2 182 DK<br>
+          Akariya, All Rights Reserved
+        </p>
+      </div>
+
+      <!-- Column 2 -->
+      <div>
+        <h3 class="text-lg font-semibold mb-3">Links</h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:text-white transition">Owners</a></li>
+          <li><a href="#" class="hover:text-white transition">Social Media</a></li>
+          <li><a href="#" class="hover:text-white transition">Costumes</a></li>
+          <li><a href="#" class="hover:text-white transition">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3 -->
+      <div>
+        <h3 class="text-lg font-semibold mb-3">Company</h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:text-white transition">Terms & Conditions</a></li>
+          <li><a href="#" class="hover:text-white transition">Privacy Policy</a></li>
+          <li><a href="#" class="hover:text-white transition">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 4 -->
+      <div>
+        <h3 class="text-lg font-semibold mb-3">Get in touch</h3>
+        <ul class="space-y-2 text-sm">
+          <li>Crackerwood KR2</li>
+          <li>182 DK, Akariya</li>
+          <li>085-123569</li>
+          <li>info@payme.net</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Footer Bottom -->
+    <p class="text-center text-sm mt-12 text-gray-400">
+      © 2025 Payme. All rights reserved
+    </p>
+  </div>
+</footer>
+
+
 
 
   </body>
